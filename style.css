@@ -1,9 +1,48 @@
-*, html, body {
+*, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  margin: 20px;
+  background-color: #0e0e0e;
+}
+
 h1 {
-  color: red;
+  color: rgb(132, 0, 219);
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+input {
+  margin: 10px 0 20px 0;
+  width: 200px;
+}
+
+button {
+  width: 100px;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+button:hover {
+  background-color: rgb(95, 25, 161);
+
 }
